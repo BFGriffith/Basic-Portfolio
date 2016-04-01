@@ -1,9 +1,11 @@
 /* INDEX */
 body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   line-height: 140%;
 }
 h1, h2, h3 {
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
   font-weight: bold;
   line-height: 300%;
 }
@@ -34,9 +36,14 @@ header {
   display: inline;
   float: right;
   line-height: 90px;
+  color: #999999;
 }
 .navlink {
   display: inline;
+}
+.navlink_separator {
+  display: inline;
+  color: #EFEFEF;
 }
 main {
   clear: both;
@@ -48,15 +55,20 @@ main {
   float: left;
   max-width: 650px;
 }
+#Griffith_avatar {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+#Griffith_description {
+  color: #777777;
+}
 /* CONTACT */
 #contact {
   float: right;
   max-width: 270px;
 }
-#Griffith_avatar {
-  width: 200px;
-  height: 200px;
-}
+
 #social_icons {
   display: inline;
   height: 100px;
