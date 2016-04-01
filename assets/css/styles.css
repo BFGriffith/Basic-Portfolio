@@ -1,5 +1,26 @@
 /* INDEX */
-
+body {
+  color: #777777;
+}
+h1, h2, h3 {
+  color: #4aaaa5;
+  font-weight: bold;
+}
+#title_name {
+  color: #FEFEFE;
+  background-color: #4EAAA4;
+}
+a {
+  text-decoration: none;
+}
+#Griffith_avatar {
+  width: 200px;
+  height: 200px;
+}
+#GitHub_avatar {
+  width: 60px;
+  height: 60px;
+}
 /* CONTACT */
 
 /* PORTFOLIO */
