@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 a:link { color: #EFEFEF; }
-a:visited { color: #7ACCC8; }
+a:visited { color: #EFEFEF; }
 a:hover { color: #4EAAA4; }
 a:active { color: #35404F; }
 /* custom HEADER */
@@ -37,6 +37,8 @@ header {
   height: 90px;
   width: 100%;
   background-color: #ffffff;
+  border-bottom: 4px solid #EFEFEF;
+  margin-bottom: 40px;
 }
 #header_contents {
   max-width: 970px;
@@ -54,18 +56,20 @@ header {
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
+  margin-left: 20px;
 }
 #navbar {
   float: right;
   max-width: 270px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-right: 20px;
 }
 #nav_links {
   display: inline;
   float: right;
   line-height: 90px;
-  color: #999999;
+  color: #777777;
 }
 .navlink {
   display: inline;
@@ -86,8 +90,11 @@ main {
 }
 #about {
   float: left;
-  max-width: 650px;
+  max-width: 590px;
   padding: 25px;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 #Griffith_avatar {
   width: 200px;
@@ -97,11 +104,14 @@ main {
 #Griffith_description {
   color: #777777;
 }
-/* CONTACT */
-#contact {
+/* CONNECT */
+#connect {
   float: right;
-  max-width: 270px;
+  max-width: 210px;
   padding: 25px;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #social_icons {
@@ -124,8 +134,35 @@ main {
   max-width: 60px;
   height: 60px;
 }
-/* PORTFOLIO */
 
+/* PORTFOLIO */
+#portfolio_project_links {
+  max-width: 650px;
+}
+.project_thumbnail {
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+.project_header {
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+/* CONTACT */
+#contact {
+  float: left;
+  max-width: 590px;
+  padding: 25px;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 /* FOOTER */
 footer {
