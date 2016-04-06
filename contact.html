@@ -10,20 +10,56 @@
 </head>
 
 <body>
-  <section id="contact">
-    <h2>Contact</h2>
-    <form action="" method="post">
-      <label for="contact_name">Name</label>
-      <input id="contact_name" type="text" required placeholder="Jane Doe">
-      <br>
-      <label for="contact_email">Email</label>
-      <input id="contact_email" type="email" name="email" required placeholder="JaneDoe@example.com">
-      <br>
-      <label for="contact_message">Message</label>
-      <textarea id="contact_message" type="text"></textarea>
-      <button type="submit" formmethod="post" formaction="#">Submit</button>
-    </form>
-  </section>
+  <div id="pagewrap">
+    <header>
+      <div id="header_contents">
+        <a href="https://bfgriffith.github.io/" target="_blank"><h1 id="title_name">Ben Forbes Griffith</h1></a>
+        <nav id="navbar">
+          <ul id="nav_links">
+            <li class="navlink"><a href="index.html">About</a></li>
+            <li class="navlink_separator"> | </li>
+            <li class="navlink"><a href="portfolio.html">Portfolio</a></li>
+            <li class="navlink_separator"> | </li>
+            <li class="navlink"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="contact">
+        <h2 class="section_title">Contact</h2>
+        <form action="" method="post" id="contact_form">
+          <label for="contact_name">Name</label>
+          <br>
+          <input id="contact_name" type="text" required placeholder="Jane Doe">
+          <br>
+          <label for="contact_email">Email</label>
+          <br>
+          <input id="contact_email" type="email" name="email" required placeholder="JaneDoe@example.com">
+          <br>
+          <label for="contact_message">Message</label>
+          <br>
+          <textarea id="contact_message" type="text"></textarea>
+          <br>
+          <button type="submit" formmethod="post" formaction="#" id="contact_submit_button">Submit</button>
+        </form>
+      </section>
+      <section id="connect">
+        <h3 id="connect_header">Connect With Me</h3>
+        <div id="social_icons">
+          <a href="https://github.com/BFGriffith" target="_blank" id="GH_thumbnail"><img src="assets/images/GitHub_Octocat.png" alt="GitHub" width="60px" height="60px" /></a>
+          <a href="https://www.linkedin.com/in/BFGriffith" target="_blank" id="LI_thumbnail"><img src="assets/images/LinkedIn.png" alt="Linked In" width="60px" height="60px" /></a>
+          <a href="http://stackoverflow.com/users/5067139/ben-griffith" target="_blank" id="SO_thumbnail"><img src="assets/images/StackOverflow.png" alt="Stack Overflow" id="StackOverflow_thumbnail" width="60px" height="60px" /></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p id="copyright_delaration">© copyright 2016 — Ben Forbes Griffith</p>
+    </footer>
+  </div>
+  <!-- END pagewrap -->
+
 </body>
 
 </html>

@@ -23,7 +23,6 @@ h1, h2, h3 {
 }
 h2, h3 {
   color: #4EAAA4;
-  line-height: 300%;
 }
 a {
   text-decoration: none;
@@ -37,7 +36,7 @@ header {
   height: 90px;
   width: 100%;
   background-color: #ffffff;
-  border-bottom: 4px solid #EFEFEF;
+  border-bottom: 4px solid #E0E0E0;
   margin-bottom: 40px;
 }
 #header_contents {
@@ -57,6 +56,7 @@ header {
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 20px;
+  font-size: 2em;
 }
 #navbar {
   float: right;
@@ -69,7 +69,7 @@ header {
   display: inline;
   /*float: right;*/
   line-height: 90px;
-  color: #777777;
+  color: #E0E0E0;
 }
 .navlink {
   display: inline;
@@ -88,33 +88,47 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+.section_title {
+  font-size: 1.5em;
+  border-bottom: 4px solid #E0E0E0;
+}
 #about {
   float: left;
+  box-sizing: border-box;
   max-width: 590px;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   background-color: #FFFFFF;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 40px;
+  border: 1px solid #E0E0E0;
 }
 #Griffith_avatar {
   width: 200px;
   height: 180px;
   float: left;
+  padding-right: 20px;
 }
 #Griffith_description {
   color: #777777;
+  padding-top: 20px;
 }
 /* CONNECT */
 #connect {
-  float: right;
-  max-width: 210px;
-  padding: 25px;
+  box-sizing: border-box;
+  float: left;
+  max-width: 250px;
+  padding: 0px 25px 25px 25px;
   background-color: #FFFFFF;
   margin-left: 20px;
   margin-right: 20px;
+  border: 1px solid #E0E0E0;
 }
-
+#connect_header {
+  font-size: 1.25em;
+  border-bottom: 3px solid #E0E0E0;
+  margin-bottom: 20px;
+}
 #social_icons {
   display: inline;
   height: 100px;
@@ -139,32 +153,68 @@ main {
 /* PORTFOLIO */
 #portfolio_project_links {
   max-width: 650px;
+  float: left;
+  box-sizing: border-box;
+  width: 590px;
+  padding: 0px 25px 25px 25px;
+  background-color: #FFFFFF;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #E0E0E0;
+  position: relative;
+}
+#portfolio_thumbnail_container {
+  position: relative;
+  margin left: -40px;
+  padding: 0;
 }
 .project_thumbnail {
-  padding: 20px;
+  float: left;
+  padding: 25px;
+  margin: 0;
   width: 200px;
   height: 200px;
   position: relative;
-  width: 100%;
 }
 .project_header {
   position: absolute;
-  top: 150px;
-  left: 10px;
+  top: 125px;
+  left: 25px;
   padding: 20px 20px 20px 20px;
   text-align: center;
+  line-height: 200%;
+  color: #F3FFFF;
+  background-color: #4EAAA4;
+  width: 160px;
 }
 
 /* CONTACT */
 #contact {
   float: left;
+  box-sizing: border-box;
+  width: 590px;
   max-width: 590px;
-  padding: 25px;
+  padding: 0px 25px 25px 25px;
   background-color: #FFFFFF;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #E0E0E0;
 }
-
+#contact_form {
+  margin-top: 20px;
+}
+#contact_name, #contact_email, #contact_message {
+  width: 530px;
+}
+#contact_message {
+  height: auto;
+}
+#contact_submit_button {
+  color: #FEFEFE;
+  background-color: #4EAAA4;
+}
 /* FOOTER */
 footer {
   clear: both;
