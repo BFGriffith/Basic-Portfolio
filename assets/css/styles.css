@@ -165,28 +165,30 @@ main {
   position: relative;
 }
 #portfolio_thumbnail_container {
-  position: relative;
-  margin left: -40px;
+  box-sizing: border-box;
+  margin-left: -50px;
+  margin-right: -50px;
+  margin-bottom: 0;
   padding: 0;
 }
 .project_thumbnail {
   float: left;
-  padding: 25px;
-  margin: 0;
+  padding: 50px;
+  margin: -20px auto;
   width: 200px;
   height: 200px;
   position: relative;
 }
 .project_header {
   position: absolute;
-  top: 125px;
-  left: 25px;
+  top: 165px;
+  left: 50px;
   padding: 20px 20px 20px 20px;
   text-align: center;
   line-height: 200%;
   color: #F3FFFF;
   background-color: #4EAAA4;
-  width: 160px;
+  width: 200px;
 }
 
 /* CONTACT */
@@ -209,11 +211,18 @@ main {
   width: 530px;
 }
 #contact_message {
-  height: auto;
+  height: 200px;
+  resize: none;
+  overflow: auto;
+  border: 1px solid #DFDFDF;
 }
 #contact_submit_button {
   color: #FEFEFE;
   background-color: #4EAAA4;
+}
+#contact_submit_button:hover {
+  cursor: pointer;
+  border: 2px solid #4EAAA4;
 }
 /* FOOTER */
 footer {
@@ -233,6 +242,3 @@ footer {
   vertical-align: middle;
   line-height: normal;
 }
-/*#pagewrap:after {
-  height: 100px;
-}*/
