@@ -242,3 +242,50 @@ footer {
   vertical-align: middle;
   line-height: normal;
 }
+
+/* MEDIA-QUERIES, mobile-first — Bootstrap 3 */
+
+/* EXTRA-SMALL+portrait devices, phones */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+
+}
+
+/* SMALL devices, phones */
+@media only screen and (min-width: 640px) {
+
+}
+
+/* smaller tablets */
+@media only screen and (min-width: 768px) {
+  #title_name {
+  float: left;
+  }
+  #navbar {
+  float: right;
+  }
+  #about {
+  float: left;
+  box-sizing: border-box;
+  max-width: 590px;
+  }
+}
+
+/* MEDIUM devices, desktops */
+@media only screen and (min-width: 980px) {
+  #title_name {
+  float: left;
+  }
+  #navbar {
+  float: right;
+  }
+}
+
+/* LARGE devices, widescreens */
+@media only screen and (min-width: 1200px) {
+  #title_name {
+  float: left;
+  }
+  #navbar {
+  float: right;
+  }
+}
