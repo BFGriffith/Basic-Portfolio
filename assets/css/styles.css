@@ -243,20 +243,30 @@ footer {
   line-height: normal;
 }
 
-/* MEDIA-QUERIES, mobile-first — Bootstrap 3 */
+/* MEDIA-QUERIES, desktop-first */
 
-/* EXTRA-SMALL+portrait devices, phones */
-@media only screen and (max-width: 640px) and (orientation: landscape) {
-
+/* LARGE devices, widescreens */
+@media only screen and (max-width: 1200px) {
+  #title_name {
+  float: left;
+  }
+  #navbar {
+  float: right;
+  }
 }
 
-/* SMALL devices, phones */
-@media only screen and (min-width: 640px) {
-
+/* MEDIUM devices, desktops */
+@media only screen and (max-width: 980px) {
+  #title_name {
+  float: left;
+  }
+  #navbar {
+  float: right;
+  }
+  #connect { margin-bottom: 40px; }
 }
-
 /* smaller tablets */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   #title_name {
   float: left;
   }
@@ -269,23 +279,18 @@ footer {
   max-width: 590px;
   }
 }
-
-/* MEDIUM devices, desktops */
-@media only screen and (min-width: 980px) {
-  #title_name {
-  float: left;
+/* SMALL devices, phones */
+@media only screen and (max-width: 640px) {
+  #pagewrap {
+    margin-right: auto; margin-left: auto;
+    align-self: center;
   }
-  #navbar {
-  float: right;
-  }
+  #header_contents { height: 180px; display: block; }
+  #navbar { clear: both; }
+  #portfolio_project_links { width: 295px; }
 }
-
-/* LARGE devices, widescreens */
-@media only screen and (min-width: 1200px) {
-  #title_name {
-  float: left;
-  }
-  #navbar {
-  float: right;
-  }
+/* EXTRA-SMALL+portrait devices, phones */
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+  #header_contents { height: 180px; }
+  #navbar { clear: both; }
 }
